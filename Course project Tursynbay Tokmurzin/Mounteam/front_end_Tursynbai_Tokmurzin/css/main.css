@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+    .{
+      -webkit-font-smoothing: antialiased;
+    }
+
+
+    .image_1{
+      background: url(../img/Main-First_2.svg) no-repeat center top;
+      background-attachment: relative;
+      background-position: center center;
+      min-height: 800px;
+
+      margin-top: -10px;
+      width: 100%;
+      background-size:cover;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+    }
+    .image_2{
+      background: url(../img/Frame0.svg)no-repeat center top;
+      background-attachment: relative;
+      background-position: center center;
+      min-height: 800px;
+      margin-top: -10px;
+      width: 100%;
+      background-size:cover;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+    }
+    .group1 {
+      background: url(../img/Group_1.svg)no-repeat center top;
+
+      /* background-position: center center; */
+      min-height: 700px;
+      margin-top: -700px;
+      background-size:cover;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+
+    }
+    .
+    #navbarNavDropdown{
+
+      display:flex;
+      justify-content: center;
+    }
+    #buttonorder{
+    font-family: 'Bebas-Roboto',Arial,sans-serif;
+    line-height: 1.55;
+    font-size: 20px;
+    width: 150px;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #055663;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    box-shadow: 5px 5px 180px 0px rgb(0 0 0);
+
+    }
+    #buttonorder:hover{
+          background: #ffffff;
+          color:#055663;
+
+    }
+    #buttonzvonok{
+      margin: 20px;
+      color: #289eab;
+    font-size: 20px;
+    font-family: 'Bebas-Roboto',Arial,sans-serif;
+    width: 200px;
+    height: 70px;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    box-shadow: 5px 5px 20px 0px rgb(255 255 255);
+    }
+      #block_photo{
+        padding-top: 200px;
+      }
+    .center{
+      position: center;
+    }
+    #buttonapishi{
+      margin-top: 60px;
+      color: #ffffff;
+      font-size: 22px;
+      font-family: 'Bebas-Roboto',Arial,sans-serif;
+      line-height: 1.55;
+      height: 60px;
+      margin-left: 90px;
+      font-weight: 500;
+      border-width: 1px;
+      border-radius: 30px;
+      background-color: #289eab;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      box-shadow:
+      }
+      #buttonapishi:hover{
+        background-color: #ffffff;
+        color: #289eab;
+      }
+      #footer_part{
+        background: #289eab;
+      }
+      .form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    font-size:'Bebas-Roboto',Arial,sans-serif;
+    color:#ffffff;}
+
+
+
+    ///////////sign up
+    .form-control {
+	height: 40px;
+	box-shadow: none;
+	color: #969fa4;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {
+	border-radius: 3px;
+}
+.signup-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}
+.signup-form h2:before {
+	left: 0;
+}
+.signup-form h2:after {
+	right: 0;
+}
+.signup-form .hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .btn {
+	font-size: 16px;
+	font-weight: bold;
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+
+
+      @media only screen and (max-width:970px){
+
+        #block_photo{
+          padding-top: 40px;
+        }
+
+        .image_1{
+          background: url(../img/Main.png) no-repeat;
+          background-size: cover;
+          }
+        #photo_block{
+          margin-right: 20%;
+          margin-left: 20%;
+          display: block;
+          align-items: center;
+        }
+        #photo_block img{
+          margin-bottom: 10px;
+          width: 300px;
+          height: 400px;
+        }
+        #buttonapishi{
+          margin-left: 20%;
+          margin-bottom: 50px;
+        }
+        #carousel-w{
+          display: block !important;
+        }
+        .img-fluid{
+          margin-top: 20px;
+          /* margin-left: 5%; */
+        }
+        .img-fluid img{
+          width: 90%;
+
+        }
+        #order{
+          font-size: 70px ;
+        }
+        #carousel_prev{
+          margin-left:-60px !important;
+        }
+        #carousel_next{
+          margin-right: -60px !important;
+        }
+        #faq{
+          display: block !important;
+          padding-left: 50px !important;
+        }
+        #faq h1{
+
+          padding-left: 40px !important;
+        }
+        #otzyv{
+          margin-top: 40px !important;
+        }
+        #formandmaps{
+          display: block !important;
+          height: auto !important;
+        }
+        #blockcontact{
+          width: 80% !important;
+          height: auto !important;
+          margin: 1% 10%;
+        }
+        #maps{
+          width: 80%;
+          margin: 2% 10%;
+          height: 250px;
+        }
+}
